@@ -1,16 +1,4 @@
 {
-    "kubernix": {
-        "branch": "master",
-        "description": "Single dependency Kubernetes clusters for local testing, experimenting and development",
-        "homepage": "",
-        "owner": "saschagrunert",
-        "repo": "kubernix",
-        "rev": "630087e023e403d461c4bb8b1c9368b26a2c0744",
-        "sha256": "1wvfiaxqj5cc5ad7k2xf4cmhmngmhf43gv55zlns8fjnvjjdair2",
-        "type": "tarball",
-        "url": "https://github.com/saschagrunert/kubernix/archive/630087e023e403d461c4bb8b1c9368b26a2c0744.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "nixpkgs": {
         "branch": "nixos-21.11",
         "description": "Nix Packages collection",
