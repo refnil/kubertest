@@ -1,0 +1,10 @@
+default: build apply
+
+apply:
+  for file in `ls *.yaml`; do just apply_file $file; done
+
+apply_file file:
+  kubectl apply -f {{file}}
+
+build:
+  minikube image build nginx-image
